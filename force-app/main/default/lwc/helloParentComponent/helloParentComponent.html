@@ -1,0 +1,24 @@
+<template>
+    <lightning-card title="Parent Component">
+        <div class="slds-m-around_medium">
+            <h1>Hello from Parent Component.</h1>
+        </div>
+    </lightning-card>
+
+    <lightning-card title="Progress Bar Component">
+        <div class="slds-m-around_medium">
+            <h1>Progress Bar component</h1>
+            <lightning-input type="text" label="Enter Percentage"
+            onkeyup={handleChange}
+            value={percentage}></lightning-input>
+            <c-progress-component progress-value={percentage}></c-progress-component>
+        </div>
+    </lightning-card> <br> <br>
+
+    <lightning-card title="Slider Component">
+        <div class="slds-m-around_medium">
+            <lightning-button variant="brand" label="Reset Slider" onclick={handleClick}></lightning-button>
+           <c-child-slider-component></c-child-slider-component>
+        </div>
+    </lightning-card>
+</template>

@@ -1,0 +1,21 @@
+<template>
+    <lightning-card title="Conditional Rendering">
+        <div class="slds-m-around_small">
+            <button class="slds-button slds-button_brand" title="Show Data" onclick={handleClick}>
+                Show Data
+            </button>
+            <template if:true={isVisible}>
+                <div>This is My first Conditional Rendering Example</div>
+            </template>
+            <template if:false={isVisible}>
+                <div>You can not see this values.</div>
+            </template>
+            
+            
+            <lightning-input type="text" label="Enter Name" onkeyup={handleNameChange}></lightning-input>
+            <template if:true={handleName}>
+                Hurray! you have typed correctly!.
+            </template>
+        </div>
+    </lightning-card>
+</template>
