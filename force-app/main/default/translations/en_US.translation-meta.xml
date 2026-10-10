@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Translations xmlns="http://soap.sforce.com/2006/04/metadata">
+    <customApplications>
+        <label><!-- Zero to Hero in LWC --></label>
+        <name>Zero_to_Hero_in_LWC</name>
+    </customApplications>
+    <customLabels>
+        <label><!-- customLabelOne --></label>
+        <name>customLabelOne</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- customLabelTwo --></label>
+        <name>customLabelTwo</name>
+    </customLabels>
+    <customTabs>
+        <label><!-- AccountCreation --></label>
+        <name>AccountCreation</name>
+    </customTabs>
+    <customTabs>
+        <label><!-- Component Communication --></label>
+        <name>Component_Communication</name>
+    </customTabs>
+    <customTabs>
+        <label><!-- LWC Fundamentals --></label>
+        <name>LWC_Fundamentals</name>
+    </customTabs>
+    <customTabs>
+        <label><!-- LWC Real Project1 --></label>
+        <name>LWC_Real_Project1</name>
+    </customTabs>
+    <customTabs>
+        <label><!-- LifeCycle Hooks --></label>
+        <name>LifeCycle_Hooks</name>
+    </customTabs>
+    <customTabs>
+        <label><!-- Lightning Message Service --></label>
+        <name>Lightning_Message_Service</name>
+    </customTabs>
+    <customTabs>
+        <label><!-- Quiz App --></label>
+        <name>Quiz_App</name>
+    </customTabs>
+    <customTabs>
+        <label><!-- Static Resource, Context and Toast --></label>
+        <name>Static_Resource_Context_and_Toast</name>
+    </customTabs>
+    <flowDefinitions>
+        <flows/>
+        <fullName>sfdc_default_ReportExport_Protection_Flow</fullName>
+    </flowDefinitions>
+    <quickActions>
+        <label><!-- LogACall --></label>
+        <name>LogACall</name>
+    </quickActions>
+    <quickActions>
+        <label><!-- NewAccount --></label>
+        <name>NewAccount</name>
+    </quickActions>
+    <quickActions>
+        <label><!-- NewCase --></label>
+        <name>NewCase</name>
+    </quickActions>
+    <quickActions>
+        <label><!-- NewContact --></label>
+        <name>NewContact</name>
+    </quickActions>
+    <quickActions>
+        <label><!-- NewEvent --></label>
+        <name>NewEvent</name>
+    </quickActions>
+    <quickActions>
+        <label><!-- NewGroup --></label>
+        <name>NewGroup</name>
+    </quickActions>
+    <quickActions>
+        <label><!-- NewLead --></label>
+        <name>NewLead</name>
+    </quickActions>
+    <quickActions>
+        <label><!-- NewNote --></label>
+        <name>NewNote</name>
+    </quickActions>
+    <quickActions>
+        <label><!-- NewOpportunity --></label>
+        <name>NewOpportunity</name>
+    </quickActions>
+    <quickActions>
+        <label><!-- NewTask --></label>
+        <name>NewTask</name>
+    </quickActions>
+    <quickActions>
+        <label><!-- SendEmail --></label>
+        <name>SendEmail</name>
+    </quickActions>
+</Translations>

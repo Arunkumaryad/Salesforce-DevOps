@@ -1,0 +1,68 @@
+<template>
+
+    <!-- CARD 1 : Title + Body + Actions + Footer -->
+    <c-custom-lightning-card>
+
+        <h1 slot="title">This is a title</h1>
+
+        <h1>This is the body</h1>
+
+        <div slot="actions">
+            <lightning-button-icon
+                icon-name="utility:down"
+                alternative-text="Show More">
+            </lightning-button-icon>
+        </div>
+
+        <div slot="footer">
+            <h6>This is the footer</h6>
+        </div>
+
+    </c-custom-lightning-card>
+
+
+    <!-- CARD 2 : Title + Body + Actions -->
+    <c-custom-lightning-card>
+
+        <h1 slot="title">
+            This card is without footer
+        </h1>
+
+        <h1>This is the body</h1>
+
+        <div slot="actions">
+            <lightning-button-icon
+                icon-name="utility:down"
+                alternative-text="Show More">
+            </lightning-button-icon>
+        </div>
+
+    </c-custom-lightning-card>
+
+
+    <!-- CARD 3 : Title + Body + Footer -->
+    <c-custom-lightning-card>
+
+        <h1 slot="title">
+            This card is without actions
+        </h1>
+
+        <h1>This is the body</h1>
+
+        <div slot="footer">
+            <h6>This is the footer</h6>
+        </div>
+
+    </c-custom-lightning-card>
+
+
+    <!-- CARD 4 : Title Only -->
+    <c-custom-lightning-card>
+
+        <h1 slot="title">
+            This card is without body
+        </h1>
+
+    </c-custom-lightning-card>
+
+</template>

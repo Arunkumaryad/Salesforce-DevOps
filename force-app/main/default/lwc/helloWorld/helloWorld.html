@@ -1,0 +1,22 @@
+<template>
+    <lightning-card title="Two way Data Binding">
+        <div class="slds-m-around_small">
+            <lightning-input type="text" label="Enter Title" onkeyup={handleClick}></lightning-input>
+            <div>{fullName} is a {title}</div>
+        </div>
+    </lightning-card>
+
+    <lightning-card title="@track Properties">
+        <div class="slds-m-around_small">
+            <lightning-input type="text" label="Enter Title" onkeyup={handleChange}></lightning-input>
+            <div>{address.city} is my city</div>
+        </div>
+    </lightning-card>
+
+     <lightning-card title="Getters in LWC">
+        <div class="slds-m-around_small">
+            <p>First user is : {firstUser}</p>
+            <p>sum of {num1} and {num2} is : {sum}</p>
+        </div>
+    </lightning-card>
+</template>
